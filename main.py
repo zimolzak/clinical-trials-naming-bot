@@ -14,7 +14,11 @@ def select_starts_with(letter, terms):
 
 print('Introducing the ' + trial_name.upper() + ' trial:', end=' ')
 
-for c in trial_name:
+for i, c in enumerate(trial_name):
     selected = select_starts_with(c, medical)
-    print(choice(selected), end=' ')
-print("\n")
+    if i == 0:
+        print(choice(selected).capitalize(), end=' ')
+    elif i == len(trial_name) - 1:
+        print(choice(selected), end='.\n')
+    else:
+        print(choice(selected), end=' ')

@@ -6,7 +6,11 @@ medical term. Now you're ready to publish your trial.
 
 Usage: `./main.py`
 
-Example output:
+Example output
+--------
 
 Introducing the IMPACT trial: integrating morbidity pravastatin
 antiepileptic cardiovascular treatment
+
+Introducing the PRISTINE trial: Platelet reduction integrating statin
+trial inhibition nursing enrollment.
